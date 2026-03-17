@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background-image: url("background-img.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.top-logo{
+    border: 2px solid red;
+    padding: 15px 10px;
+    color: red;
+    font-size: 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.nav-items button {
+    font-family: 'roboto', sans-serif;
+    font-size: 0.8rem;
+    color: red;
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.nav-items button:hover {
+    background-color: red;
+    color: black
+}
