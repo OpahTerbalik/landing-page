@@ -43,6 +43,7 @@ body{
 .nav-items a {
     text-decoration: none;
     color: rgb(255, 0, 0);
+    transition: 0.9s ease;
 }
 
 .nav-items button {
@@ -53,9 +54,17 @@ body{
     background-color: transparent;
     border: 2px solid red;
     border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .nav-items button:hover {
     background-color: red;
     color: black
+}
+
+.nav-items a:hover {
+    text-decoration: underline red 2px;
+    text-underline-offset: 0.4rem;
+    
 }
